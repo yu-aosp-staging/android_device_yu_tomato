@@ -21,6 +21,14 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 # CodeAurora msm8916_64 Tree
 include device/qcom/msm8916_64/msm8916_64.mk
 
+# Ramdisk
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,device/yu/tomato/ramdisk,root)
+
+# Prebuilt
+PRODUCT_COPY_FILES += \
+    $(call find-copy-subdir-files,*,device/yu/tomato/prebuilt/system,system)
+
 # Overlay
 # DEVICE_PACKAGE_OVERLAYS += device/yu/tomato/overlay
 # PRODUCT_PACKAGE_OVERLAYS += device/yu/tomato/overlay

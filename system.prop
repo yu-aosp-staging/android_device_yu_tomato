@@ -39,7 +39,7 @@ debug.enable.sglscale=1
 #
 # system props for the cne module
 #
-persist.cne.feature=1
+persist.cne.feature=0
 
 #system props for the MM modules
 media.stagefright.enable-player=true
@@ -80,7 +80,7 @@ persist.timed.enable=true
 # ro.opengles.version=196608
 
 # System property for cabl
-ro.qualcomm.cabl=2
+ro.qualcomm.cabl=0
 
 #
 # System props for telephony

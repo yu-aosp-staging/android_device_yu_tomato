@@ -1,0 +1,15 @@
+Here is the list of all the things remaining to do :
+- overlay frameworks/base config.xml device specific flags
+- adapting camera HAL to camera sensor
+- clarifying GPS HAL
+- add a device specific liblight (that handles colors + blink)
+- edit power_profile to match eventual OC/UC fro kernelspace
+- Move/Add GPS configs to prebuilt
+- Write a specific keylayout
+- Write the ramdisk
+- Adapt sensor HAL
+- Write sepolicy (depending on ramoops outputs --> write files_context)
+- Switch to permissive selinux for bringup purposes
+- Write a KeyHandler for gestures/dt2w
+- Add RIL properties to system.prop (persist.radio.multisim.config, ril.ecclist) and GPS ones
+

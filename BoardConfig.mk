@@ -40,6 +40,10 @@ BLOCK_BASED_OTA := false
 # Camera
 TARGET_USES_AOSP := true
 
+# Charger
+BOARD_CHARGER_DISABLE_INIT_BLANK := true
+BOARD_HAL_STATIC_LIBRARIES := libhealthd.msm
+
 # FM
 AUDIO_FEATURE_ENABLED_FM := true
 

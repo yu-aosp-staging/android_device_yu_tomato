@@ -30,8 +30,8 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/yu/tomato/prebuilt/system,system)
 
 # Overlay
-# DEVICE_PACKAGE_OVERLAYS += device/yu/tomato/overlay
-# PRODUCT_PACKAGE_OVERLAYS += device/yu/tomato/overlay
+DEVICE_PACKAGE_OVERLAYS += device/yu/tomato/overlay
+PRODUCT_PACKAGE_OVERLAYS += device/yu/tomato/overlay
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
